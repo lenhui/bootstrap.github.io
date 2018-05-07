@@ -1,0 +1,270 @@
+/*=============公共样式==============*/
+*{margin:0;padding:0;}
+img { border: 0 none; vertical-align: center; }
+ul, li { list-style-type: none; margin:0px; padding:0px;}
+h1, h2, h3, h4, h5, h6 { font-size: 14px; }
+body, input, select, button, textarea { font-size: 12px; font-family:"Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei","Microsoft YaHei UI","Microsoft YaHei"}
+button { cursor: pointer; }
+i, em, cite { font-style: normal; }
+aside section,.body{display:block; width:1000px; margin:0 auto;}
+a, a:link { color: #000; text-decoration: none; }/*设置a标签基本样式与伪类选择器设置*/
+a:visited {}
+a:active, a:hover { text-decoration: none; color:#BC2E2E; }
+a:focus { outline: none; } 
+.orange { color:#F26E01;}		/* 常用颜色 */
+
+.clear {
+	clear:both;
+}
+body{
+	background: #eee;
+}
+/*<!-- 头部巨幕 -->*/
+header .jumbotron{
+	background: url(../images/1.jpg);
+}
+header .jumbotron h1{
+	font-size: 40px;
+	text-align: center;
+	color:#fff;	
+}
+header .jumbotron .jum-a{
+	display: flex;
+	justify-content: space-between;
+	margin-top:50px;	
+}
+header .jumbotron .jum-a a{
+	font-size: 15px;
+	color:#fff;
+	display: block;
+	border:1px solid red;
+	padding:5px 15px;
+	transition: background 2s;
+	-moz-transition: background 2s;	/* Firefox 4 */
+	-webkit-transition: background 2s;	/* Safari 和 Chrome */
+	-o-transition: background 2s;	
+}
+header .jumbotron .jum-a a:hover{
+	background: black;
+}
+/*<!-- 头部巨幕结束 -->*/
+/*<!-- 导航栏开始 -->*/
+header .border-radius{
+	border-radius: 0px;
+	margin-top: -30px;
+}
+header .border-radius .container{
+	display: flex;
+	justify-content:space-between;
+}
+header .border-radius .container .cen{
+	border-color: #fff;
+}
+header .border-radius .container .cen li{
+	text-align: center;
+}
+header .border-radius .container .cen li a{
+	font-size: 15px;	
+}
+header .border-radius .container .cen li .b{
+	font-weight: 600;
+}
+header .border-radius .container .cen li a:hover{
+	color:#f4645f;
+}
+/*<!-- 导航栏结束 -->*/
+/*主体部分右侧开始*/
+.main-right .row1{
+	margin-top: 20px;
+}
+.main-right .jumbotron{
+	border-radius: 0px;
+	background: #FFFFFF;
+	margin-top: 20px;
+}
+.main-right .jumbotron h2{
+	text-align: center;
+	font-size: 30px;
+	/*margin-top: -15px;*/
+}
+.main-right .jumbotron p{
+	text-align: center;
+	font-size: 14px;
+	color:#959595;
+}
+/*缩略图*/
+.main-right .thumbnail{
+	margin-top:-70px;
+	border-radius: 0px;
+	border-top:none;
+	border-bottom: 1px solid #ebebeb;
+}
+.main-right .thumbnail img{
+	width: 100%;
+}
+.main-right .thumbnail img,.caption p{
+	padding:10px 20px;
+}
+.main-right .thumbnail p{
+	font-size: 18px;
+	/*height: 30px;
+	line-height:30px;*/
+	color:#444443;
+}
+/*右侧分页部分*/
+.main-right .pager li a{
+	font-size: 15px;
+	color:#fff;
+	background: #F4645F;
+	border-radius: 0px;
+	padding:8px;
+}
+/*右侧分页部分结束*/
+/*主体左侧部分*/
+.main-left{
+	margin-top: 20px;
+}
+.main-left .panel-default{
+	border-radius: 0px;
+}
+/*社区部分*/
+/*社区部分结束*/
+.main-left .panel-default .panel-heading{
+	background-image: none;
+	background-color:#fff;
+	border:none; 
+}
+.main-left .panel-default .panel-title{
+	font-size: 20px;
+	padding: 10px;
+	/*border-bottom: 1px solid red;	*/
+}
+.main-left .panel-default .panel-body{
+	padding: 5px 30px;
+	font-size: 15px;
+}
+.main-left .panel-default .panel-body a{
+	color:#F4645F;
+}
+.main-left .panel-default .panel-body i{
+	margin-right: 5px;
+}
+.main-left .panel-default .btn{
+	color:#fff;
+	background:#F4645F;
+	border-radius: 0px;
+	margin:0 auto;
+	margin-top: -15px;
+	margin-bottom: 20px;
+	padding:8px 40px;
+	transition: background 1s; 
+}
+.main-left .panel-default .btn:hover{
+	background: #000;
+}
+/*文档块*/
+.main-left .panel-default .document .btn.btn2{
+	padding:8px 120px;
+}
+.main-left .panel-default .document .btn.btn2.last{
+	padding:8px 94px;
+}
+/*主体左侧部分结束*/
+/*底部*/
+footer{
+	background: #202020;
+}
+footer .foot-top{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+footer .foot-top li>a{
+	color:#FFF;
+	font-size:20px;
+	/*font-weight: 600;*/
+}
+footer .foot-top .next li{
+	border-bottom: 1px dotted #505050;
+	padding:10px 0;
+}
+footer .foot-top .next a{
+	color:#959595;
+	font-size: 15px;
+	font-weight: 400;
+}
+footer .foot-top .next a:hover{
+	color:#f4645f;
+}
+footer .foot-top .next p{
+	font-size: 15px;;
+	margin-top:5px;
+	color: #505050;
+}
+footer .foot-top .next2 .btn{
+	background:#202020;
+	color:#959595;
+	border:1px solid #959595; 
+}
+footer .foot-top .next2 .btn:hover{
+	background: #F4645F;
+}
+footer .foot-top .next2,.next3 li{
+	margin-top: 10px;
+}
+
+footer .foot-top .next3 li a{
+	display: block;
+	float:left;
+	font-size: 15px;
+	font-weight: 400;
+	color:#959595;
+	margin-right: 40px;
+	height: 30px;
+	line-height: 30px;
+	padding-left:5px;
+	padding-right: 5px;
+}
+footer .foot-top .next3 li a:hover{
+	background: #F4645F;
+}
+footer .foot-top .next3 .last{
+	margin-top: 20px;
+	border-top: 1px dotted #505050;
+	padding-bottom: 10px; 
+}
+footer .foot-top .next3 .last a{
+	margin-left: -10px;
+	margin-top: 10px;
+}
+footer .foot-top>li{
+	margin-top: 20px;
+}
+footer .foot-bottom{
+	margin-top: 20px;
+	background: #111111;
+}
+footer .foot-bottom p{
+	text-align: center;
+	color:#505050;
+	font-size: 13px;
+	padding:30px 0;
+}
+footer .foot-bottom p a{
+	color:#505050;
+	font-size: 13px;
+}
+/*底部结束*/
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width:768px) {
+	header .border-radius .container .cen li a{
+		margin-left:20px;
+	}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: @screen-md-min) { ... }
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: @screen-lg-min) { ... }

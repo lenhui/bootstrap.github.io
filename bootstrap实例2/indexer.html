@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<script src="./js/jquery-3.2.1.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script>
+		// $('#myCollapsible').on('hidden.bs.collapse', function () {
+		//    do something…
+		// })
+	</script>
+	
+</head>
+<body>
+<!-- 适用于移动设备的代码 -->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0; " name="viewport" />
+<!--顶部导航条 -->
+<header>
+<nav class="navbar navbar-default top">
+	<div class="container-fluid" style="background:#3FA8E1;">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><img src="./images/1.png" alt=""></a>
+		</div>
+			<ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+				<li><a href="#">首页</a></li>
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">解决方案 <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 智能制造</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 智能建筑</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 智慧城市</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 政府单位</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 电力行业</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 医疗行业</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 云服务</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 外包行业</a>
+						</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品软件 <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 行业应用类</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 软件管理类</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 平台工具类</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 信息安全类</a>
+						</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">专业服务 <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 咨询服务</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 信息安全服务</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 运营运维服务</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 增值服务</a>
+						</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于瑞恩 <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 公司概况</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 愿景使命</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 公司资质</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 公司荣誉</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 企业文化</a>
+						</a></li>
+						<li><a href="#"><a href="" class="glyphicon glyphicon-chevron-right"> 合作伙伴</a>
+						</a></li>
+					</ul>
+				</li>
+				<li class="glyphicon glyphicon-search"></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+</div>
+
+<!-- 轮播图 -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="./images/2.png" alt="...">
+		    </div>
+		    <div class="item">
+		      <img src="./images/3.png" alt="...">
+		    </div>
+		    	<div class="item">
+		      <img src="./images/4.png" alt="...">   
+		  </div>
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+</div>
+<!-- 行业应用 -->
+	  <div class="news col-md-12 col-sm-12 col-xs-12 col-lg-12 ">
+	<p class="h1">行业应用</p>
+
+</div>
+<div class="pic">
+	<div >
+		<div class="col-md-2 col-sm-2 col-xs-4 col-lg-2 ">
+			<a href="" >
+				<img src="./images/1.jpg" alt="" >
+				<p>智能制造</p>						
+			</a>	
+		</div>		
+		<div class="col-md-2 col-sm-2 col-xs-4 col-lg-2 ">
+			<a href="" >
+				<img src="./images/2.jpg" alt="" >
+				<p>智能建筑</p>					
+			</a>	
+		</div>
+		<div class="col-md-2 col-sm-2 col-xs-4 col-lg-2 ">
+			<a href="" >
+				<img src="./images/3.jpg" alt="" >
+				<p>智慧城市</p>						
+			</a>	
+		</div>	
+		<div class="col-md-2 col-sm-2 col-xs-4 col-lg-2 ">
+			<a href="" >
+				<img src="./images/4.jpg" alt="" >
+				<p>政府单位</p>						
+			</a>	
+		</div>	
+		<div class="col-md-2 col-sm-2 col-xs-4 col-lg-2 ">
+			<a href="" >
+				<img src="./images/5.jpg" alt="" >
+				<p>电力行业</p>						
+			</a>	
+		</div>	
+		<div class="col-md-2 col-sm-2 col-xs-4 col-lg-2 ">
+			<a href="" >
+				<img src="./images/6.jpg" alt="" >
+				<p>医疗行业</p>						
+			</a>	
+		</div>							
+	</div>		
+</div>
+</header>
+
+<!-- 新闻中心  -->
+<div class="news col-md-12 col-sm-12 col-xs-12 col-lg-12 ">
+	<p class="h1">新闻中心</p>
+
+</div>
+<div class="pic2">
+	<div class="col-md-4 col-sm-12 col-xs-12 col-lg-4 ">
+		<div>
+			<img src="./images/9.jpg" alt="" >
+			<p>
+				<span>ruien2018  </span> 
+				| <i class="glyphicon glyphicon-eye-open"> </i>
+				<span> 287</span>
+			</p>
+			<a>
+				2017东莞工业大数据与智能制造高峰论坛圆满结束
+			</a>
+			<p>
+				2017年8月30日下午，由东莞市经济和信息化局指导，广东瑞恩科技有限公司与东莞市首席信息官协会联合主办的“共享数据，驱动倍增暨2017年东莞工业大数据与智能制..
+			</p>
+		</div>
+	</div>		
+	<div class="col-md-4 col-sm-12 col-xs-12 col-lg-4 ">
+		<div>
+			<img src="./images/8.jpg" alt="" >
+			<p>
+				<span>ruien2018  </span> 
+				| <i class="glyphicon glyphicon-eye-open"> </i>
+				<span> 89</span>
+			</p>
+			<a>
+				两会聚焦丨社群经济+共享经济的春天
+			</a>
+			<p>
+				两会聚焦丨社群经济+共享经济的春天来源：本站原创|时间：2017-03-13 09:21:46 阅览次数：92  作者： admin
+			</p>
+		</div>
+	</div>
+	<div class="col-md-4 col-sm-12 col-xs-12 col-lg-4 ">
+		<div>
+			<img src="./images/7.jpg" alt="" >
+			<p>
+				<span>ruien2018  </span> 
+				| <i class="glyphicon glyphicon-eye-open"> </i>
+				<span> 148</span>
+			</p>
+			<a>
+				2016年瑞恩科技VIP客户游艇交流会圆满结束
+			</a>
+			<p>
+				2016年瑞恩科技VIP客户游艇交流会圆满结束来源：本站原创|时间：2016-05-16 10:00:00 阅览次数：49  作者： admin  
+			</p>
+		</div>
+	</div>									
+</div>
+<!-- 底部 -->
+<footer>
+	<div class="container">
+		<ul class="row">
+			<li class="col-md-3 col-sm-12 col-xs-12 col-lg-3">公司简介
+				<p class="first">
+					广东瑞恩科技有限公司成立于2009年8月12日，注册资金6100万元。专业从事云计算服务、大数据信息技术服务、产品研发、系统集成、IT运维的高科技公司。利用自身成本和服务优势为各行各业用户提供量身定制的桌面云整体解决方案，在制造业、高科技、互联网、科研教育和政府等领域取得了非凡的成绩.....
+				</p>
+				<a href="">查看更多<span class="glyphicon glyphicon-circle-arrow-right"></span></a>
+			</li>
+			<li class="col-md-3 col-sm-12 col-xs-12 col-lg-3">公司新闻
+				<p><a href="" class="glyphicon glyphicon-chevron-right"> 2017东莞工业大数</a>
+				</p>
+				<p><a href="" class="glyphicon glyphicon-chevron-right"> 2017东莞工业大数</a>
+				</p>
+				<p><a href="" class="glyphicon glyphicon-chevron-right"> 2017东莞工业大数</a>
+				</p>
+				<p><a href="" class="glyphicon glyphicon-chevron-right"> 2017东莞工业大数</a>
+				</p>
+				<p><a href="" class="glyphicon glyphicon-chevron-right"> 2017东莞工业大数</a>
+				</p>
+			</li>
+			<li class="col-md-3 col-sm-12 col-xs-12 col-lg-3">公司图文
+				<div class="float">
+					<a href=""><img src="./images/10.jpg" alt=""></a>	<a href=""><img src="./images/11.jpg" alt=""></a>
+					<a href=""><img src="./images/12.jpg" alt=""></a>
+					<a href=""><img src="./images/13.jpg" alt=""></a>
+					<a href=""><img src="./images/14.jpg" alt=""></a>
+				</div>
+			</li>
+			<li class="col-md-3 col-sm-12 col-xs-12 col-lg-3">联系我们
+				<p class="es"><i class="glyphicon glyphicon-map-marker"></i>  广东省东莞市南城区体育路 
+				</p>
+				<p class="es"><a href="" class="glyphicon glyphicon-earphone" only></a> 4006-370-330
+				</p>
+				<p class="es"><i class="glyphicon glyphicon-envelope"></i>  info@gdruien.com
+				</p>
+				<p class="es"><i class="glyphicon glyphicon-globe"></i> www.gdruien.com
+				</p>
+			</li>
+		</ul>
+	</div>
+
+	<div class="bottom">
+		<span>公司旗下的网站</span>/
+		<span>瑞恩云平台</span>/
+		<span>系统集成</span>/
+		<span>云终端</span>/
+		<p>Copyright © 2009 - 2018 gdruien.com All Rights Reserved</p>
+	</div>
+</footer>
+</body>
+</html>
